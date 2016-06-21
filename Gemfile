@@ -5,6 +5,13 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
+
+#devise added for authentication
+gem 'devise'
+#bootstrap added
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,9 +48,6 @@ group :development, :test do
 end
 
 group :development do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
-  
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
